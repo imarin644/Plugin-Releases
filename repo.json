@@ -20,5 +20,32 @@
     "IsHide": false,
     "IsTestingExclusive": false,
     "LastUpdate": 1792347203
+  },
+  {
+    "Author": "unknown",
+    "Name": "Submarine Sell Item Tracker",
+    "InternalName": "SubmarineSellItemTracker",
+    "AssemblyVersion": "1.0.0.0",
+    "Description": "Tracks submarine salvage accessories, item counts, and NPC sale values across characters. Includes automatic scans, service account and world summaries, and CSV export. Use /subinv to open.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/imarin644/Plugin-Releases",
+    "Tags": [
+      "submarine",
+      "inventory",
+      "tracker"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "Track submarine salvage items and sale values across characters.",
+    "AcceptsFeedback": true,
+    "DownloadLinkInstall": "https://github.com/imarin644/Plugin-Releases/releases/download/ssit-v1.0.0/SubmarineSellItemTracker-1.0.0.zip",
+    "DownloadLinkUpdate": "https://github.com/imarin644/Plugin-Releases/releases/download/ssit-v1.0.0/SubmarineSellItemTracker-1.0.0.zip",
+    "DownloadLinkTesting": "https://github.com/imarin644/Plugin-Releases/releases/download/ssit-v1.0.0/SubmarineSellItemTracker-1.0.0.zip",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "LastUpdate": 1792348204
   }
 ]
