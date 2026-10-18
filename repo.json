@@ -1,0 +1,24 @@
+[
+  {
+    "Author": "unknown",
+    "Name": "Auto Craft Cycle",
+    "InternalName": "AutoCraftCycle",
+    "AssemblyVersion": "2.1.6.0",
+    "Description": "宿屋での素材補充と製作、収集品納品、スクリップ交換、GC納品を周回します。外部プラグイン向けIPCに対応。",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "素材補充・製作・納品・交換を自動で繰り返します。",
+    "AcceptsFeedback": true,
+    "RepoUrl": "https://github.com/imarin644/Plugin-Releases",
+    "DownloadLinkInstall": "https://github.com/imarin644/Plugin-Releases/releases/download/acc-v2.1.6/AutoCraftCycle-2.1.6.zip",
+    "DownloadLinkUpdate": "https://github.com/imarin644/Plugin-Releases/releases/download/acc-v2.1.6/AutoCraftCycle-2.1.6.zip",
+    "DownloadLinkTesting": "https://github.com/imarin644/Plugin-Releases/releases/download/acc-v2.1.6/AutoCraftCycle-2.1.6.zip",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "LastUpdate": 1792346175
+  }
+]
