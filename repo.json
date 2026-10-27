@@ -27,7 +27,7 @@
     "Author": "unknown",
     "Name": "Submarine Sell Item Tracker",
     "InternalName": "SubmarineSellItemTracker",
-    "AssemblyVersion": "1.1.1.0",
+    "AssemblyVersion": "1.1.2.0",
     "Description": "Tracks eight submarine salvage items, NPC sale values, and character-held gil across characters. Includes automatic scans, service account and world summaries, CSV export, and AutoRetainer completion reports through Discord webhooks. Use /subinv to open or /subinv settings to configure notifications.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/imarin644/Plugin-Releases",
@@ -43,12 +43,12 @@
     "LoadPriority": 0,
     "Punchline": "Track submarine salvage items and sale values across characters.",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/imarin644/Plugin-Releases/releases/download/ssit-v1.1.1/SubmarineSellItemTracker-1.1.1.zip",
-    "DownloadLinkUpdate": "https://github.com/imarin644/Plugin-Releases/releases/download/ssit-v1.1.1/SubmarineSellItemTracker-1.1.1.zip",
-    "DownloadLinkTesting": "https://github.com/imarin644/Plugin-Releases/releases/download/ssit-v1.1.1/SubmarineSellItemTracker-1.1.1.zip",
+    "DownloadLinkInstall": "https://github.com/imarin644/Plugin-Releases/releases/download/ssit-v1.1.2/SubmarineSellItemTracker-1.1.2.zip",
+    "DownloadLinkUpdate": "https://github.com/imarin644/Plugin-Releases/releases/download/ssit-v1.1.2/SubmarineSellItemTracker-1.1.2.zip",
+    "DownloadLinkTesting": "https://github.com/imarin644/Plugin-Releases/releases/download/ssit-v1.1.2/SubmarineSellItemTracker-1.1.2.zip",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1793071098,
-    "Changelog": "Adds TEST-tagged JSON reports for Make aggregation, character-held gil tracking, normal/luxury/held/overall gil columns, and counts and sale values for all eight salvage items. Unknown character gil counts as zero and is displayed separately from a recorded zero."
+    "LastUpdate": 1793088350,
+    "Changelog": "Adds persistent same-day report ID sequences (_01, _02, etc.), preserving active reports and migrating existing sent IDs to prevent reuse after restart."
   }
 ]
