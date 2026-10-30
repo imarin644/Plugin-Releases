@@ -53,10 +53,10 @@
     "IconUrl": "https://github.com/imarin644/Plugin-Releases/releases/download/ssit-v1.1.4/SubmarineSellItemTracker-icon.png"
   },
   {
-    "Author": "karaage",
+    "Author": "unknown",
     "Name": "Submarine Logistics Manager",
     "InternalName": "SubmarineLogisticsManager",
-    "AssemblyVersion": "1.0.1.0",
+    "AssemblyVersion": "1.0.2.0",
     "Description": "Use /slm to open. Manually start supply, NPC selling, or Free Destination Check in data center and world priority order. Protects ten designated items and tracks gil, inventory space, stock warnings, and failure history. After FC return, moves forward for up to two seconds. Choose Do Nothing (default), Exit Client, or Logout after the final character. Pins the active character at the top of the table. Requires Lifestream and vnavmesh.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/imarin644/Plugin-Releases",
@@ -72,13 +72,13 @@
     "LoadPriority": 0,
     "Punchline": "Manage submarine supplies, NPC selling, free destinations, and automated multi-character runs.",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.1/SubmarineLogisticsManager-1.0.1.zip",
-    "DownloadLinkUpdate": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.1/SubmarineLogisticsManager-1.0.1.zip",
-    "DownloadLinkTesting": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.1/SubmarineLogisticsManager-1.0.1.zip",
+    "DownloadLinkInstall": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.2/SubmarineLogisticsManager-1.0.2.zip",
+    "DownloadLinkUpdate": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.2/SubmarineLogisticsManager-1.0.2.zip",
+    "DownloadLinkTesting": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.2/SubmarineLogisticsManager-1.0.2.zip",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1793334034,
-    "IconUrl": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.1/SubmarineLogisticsManager-icon.png",
-    "Changelog": "Adds an ACC-style completion settings panel with Do Nothing (default), Exit Client, and Logout. Existing configurations without a completion preference default to Do Nothing. Applies the selected action only to the final character and captures it at run start. Pins the active character directly below the table header, keeps it visible while scrolling or filtering, and restores the normal display after completion or cancellation. Preserves the remaining row order and actual run order."
+    "LastUpdate": 1793352556,
+    "IconUrl": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.2/SubmarineLogisticsManager-icon.png",
+    "Changelog": "Adds run progress including the active character (for example, 4/32 after three completions). Captures the total at run start, retains progress on cancellation or failure, and resets it for the next run. Removes the /lsp alias; use /slm. Changes the author to unknown."
   }
 ]
