@@ -55,8 +55,8 @@
     "Author": "karaage",
     "Name": "Submarine Logistics Manager",
     "InternalName": "SubmarineLogisticsManager",
-    "AssemblyVersion": "1.0.0.0",
-    "Description": "Use /slm to open. Manually start supply, NPC selling, or Free Destination Check in data center and world priority order. Protects ten designated items and tracks gil, inventory space, stock warnings, and failure history. After FC return, moves forward for up to two seconds. Clears successfully completed supply or selling selections and saves them before the final client exits. The first supply character in each world waits for trade without a timeout. Requires Lifestream and vnavmesh.",
+    "AssemblyVersion": "1.0.1.0",
+    "Description": "Use /slm to open. Manually start supply, NPC selling, or Free Destination Check in data center and world priority order. Protects ten designated items and tracks gil, inventory space, stock warnings, and failure history. After FC return, moves forward for up to two seconds. Choose Do Nothing (default), Exit Client, or Logout after the final character. Pins the active character at the top of the table. Requires Lifestream and vnavmesh.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/imarin644/Plugin-Releases",
     "Tags": [
@@ -71,13 +71,13 @@
     "LoadPriority": 0,
     "Punchline": "Manage submarine supplies, NPC selling, free destinations, and automated multi-character runs.",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.0/SubmarineLogisticsManager-1.0.0.zip",
-    "DownloadLinkUpdate": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.0/SubmarineLogisticsManager-1.0.0.zip",
-    "DownloadLinkTesting": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.0/SubmarineLogisticsManager-1.0.0.zip",
+    "DownloadLinkInstall": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.1/SubmarineLogisticsManager-1.0.1.zip",
+    "DownloadLinkUpdate": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.1/SubmarineLogisticsManager-1.0.1.zip",
+    "DownloadLinkTesting": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.1/SubmarineLogisticsManager-1.0.1.zip",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1793333210,
-    "IconUrl": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.0/SubmarineLogisticsManager-icon.png",
-    "Changelog": "Stable v1.0.0. Replaces house-door tracking with up to two seconds of forward movement after FC return. Exits the current game client after the final character. Clears and saves successfully completed supply or NPC selling selections before client exit. Disables trade timeouts for the first supply character in each world, including the initial world, while retaining normal limits for later characters. Removes automatic login starts; processing begins only through explicit run buttons. Preserves selections edited during a run for the next run, existing settings, and failure recovery."
+    "LastUpdate": 1793334034,
+    "IconUrl": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.1/SubmarineLogisticsManager-icon.png",
+    "Changelog": "Adds an ACC-style completion settings panel with Do Nothing (default), Exit Client, and Logout. Existing configurations without a completion preference default to Do Nothing. Applies the selected action only to the final character and captures it at run start. Pins the active character directly below the table header, keeps it visible while scrolling or filtering, and restores the normal display after completion or cancellation. Preserves the remaining row order and actual run order."
   }
 ]
