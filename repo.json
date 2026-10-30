@@ -109,5 +109,30 @@
     "LastUpdate": 1793357264,
     "IconUrl": "https://github.com/imarin644/Plugin-Releases/releases/download/fchm-v0.0.1/FCHM-icon.png",
     "Changelog": "Rebuilds the UI and adds world-filtered schedules, batch creation, automatic entry/refund tracking, public Lifestream IPC switching, unclaimed-refund warnings, and read-only history. Migrates legacy character identities as Anima. In-game verification is required."
+  },
+  {
+    "Author": "unknown",
+    "Name": "Vanity Collection Manager",
+    "InternalName": "MissingCollectPlugin",
+    "AssemblyVersion": "0.0.1.0",
+    "DalamudApiLevel": 15,
+    "ApplicableVersion": "any",
+    "LoadRequiredState": 0,
+    "Punchline": "Track unlocked vanity collectibles and discover how to obtain missing items.",
+    "Description": "Use /vcm to open. Tracks mounts, minions, emotes, Triple Triad cards, chocobo bardings, orchestrion rolls, fashion accessories, and facewear. Includes acquisition sources from FFXIV Collect, tradeability filters, character-specific favorites, and CSV export. Hairstyles are planned and are not included in this initial build.",
+    "RepoUrl": "https://github.com/imarin644/Plugin-Releases",
+    "Tags": [
+      "collection",
+      "vanity",
+      "tracker"
+    ],
+    "IconUrl": "https://github.com/imarin644/Plugin-Releases/releases/download/vcm-v0.0.1/VCM-icon.png",
+    "DownloadLinkInstall": "https://github.com/imarin644/Plugin-Releases/releases/download/vcm-v0.0.1/VCM-0.0.1.zip",
+    "DownloadLinkUpdate": "https://github.com/imarin644/Plugin-Releases/releases/download/vcm-v0.0.1/VCM-0.0.1.zip",
+    "DownloadLinkTesting": "https://github.com/imarin644/Plugin-Releases/releases/download/vcm-v0.0.1/VCM-0.0.1.zip",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "LastUpdate": 1793358455,
+    "Changelog": "Initial API 15 compatibility build with the existing eight collection categories. Adds /vcm, preserves the legacy command, protects existing acquisition data on update failures, and stores settings in the plugin configuration directory."
   }
 ]
