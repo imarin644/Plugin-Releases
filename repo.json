@@ -80,5 +80,34 @@
     "LastUpdate": 1793352556,
     "IconUrl": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.2/SubmarineLogisticsManager-icon.png",
     "Changelog": "Adds run progress including the active character (for example, 4/32 after three completions). Captures the total at run start, retains progress on cancellation or failure, and resets it for the next run. Removes the /lsp alias; use /slm. Changes the author to unknown."
+  },
+  {
+    "Author": "unknown",
+    "Name": "FC Housing Manager",
+    "InternalName": "HouseLotteryTracker",
+    "AssemblyVersion": "0.0.1.0",
+    "DalamudApiLevel": 15,
+    "ApplicableVersion": "any",
+    "LoadRequiredState": 0,
+    "Punchline": "Manage housing lotteries across multiple characters and worlds.",
+    "Description": "Use /fchm to open. Creates housing lottery schedules, automates character switching, plot travel, lottery entry and refunds, records entry numbers from game messages, and sends lottery numbers to Discord. Requires Lifestream; vnavmesh is used when a placard approach is needed. Service account selection follows Lifestream or AutoRetainer registration.",
+    "RepoUrl": "https://github.com/imarin644/Plugin-Releases",
+    "Tags": [
+      "housing",
+      "lottery",
+      "manager"
+    ],
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "AcceptsFeedback": true,
+    "DownloadLinkInstall": "https://github.com/imarin644/Plugin-Releases/releases/download/fchm-v0.0.1/FCHM-0.0.1.zip",
+    "DownloadLinkUpdate": "https://github.com/imarin644/Plugin-Releases/releases/download/fchm-v0.0.1/FCHM-0.0.1.zip",
+    "DownloadLinkTesting": "https://github.com/imarin644/Plugin-Releases/releases/download/fchm-v0.0.1/FCHM-0.0.1.zip",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "LastUpdate": 1793357264,
+    "IconUrl": "https://github.com/imarin644/Plugin-Releases/releases/download/fchm-v0.0.1/FCHM-icon.png",
+    "Changelog": "Rebuilds the UI and adds world-filtered schedules, batch creation, automatic entry/refund tracking, public Lifestream IPC switching, unclaimed-refund warnings, and read-only history. Migrates legacy character identities as Anima. In-game verification is required."
   }
 ]
