@@ -55,8 +55,8 @@
     "Author": "karaage",
     "Name": "Submarine Logistics Manager",
     "InternalName": "SubmarineLogisticsManager",
-    "AssemblyVersion": "0.0.1.0",
-    "Description": "Use /slm to open. Select supply or NPC selling for each character and process them in data center and world priority order. Supports protection for ten designated items, gil and inventory space tracking, security token free teleport destination display, low-stock warnings, and persistent failure history. Requires Lifestream and vnavmesh.",
+    "AssemblyVersion": "0.0.2.0",
+    "Description": "Use /slm to open. Select supply or NPC selling for each character and process them in data center and world priority order. Supports protection for ten designated items, gil and inventory space tracking, low-stock warnings, and persistent failure history. Free Destination Check visits characters with unknown or non-Limsa security token free destinations, registers Limsa when needed, and returns to the FC house before logout. Requires Lifestream and vnavmesh.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/imarin644/Plugin-Releases",
     "Tags": [
@@ -69,15 +69,15 @@
     "LoadSync": false,
     "CanUnloadAsync": false,
     "LoadPriority": 0,
-    "Punchline": "Manage submarine supplies, NPC selling, and automated multi-character runs.",
+    "Punchline": "Manage submarine supplies, NPC selling, free destinations, and automated multi-character runs.",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v0.0.1/SubmarineLogisticsManager-0.0.1.zip",
-    "DownloadLinkUpdate": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v0.0.1/SubmarineLogisticsManager-0.0.1.zip",
-    "DownloadLinkTesting": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v0.0.1/SubmarineLogisticsManager-0.0.1.zip",
+    "DownloadLinkInstall": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v0.0.2/SubmarineLogisticsManager-0.0.2.zip",
+    "DownloadLinkUpdate": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v0.0.2/SubmarineLogisticsManager-0.0.2.zip",
+    "DownloadLinkTesting": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v0.0.2/SubmarineLogisticsManager-0.0.2.zip",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1793328713,
-    "IconUrl": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v0.0.1/SubmarineLogisticsManager-icon.png",
-    "Changelog": "Initial v0.0.1 release. Renames LoginSequencePlugin to Submarine Logistics Manager. Adds mutually exclusive supply and NPC selling selections, data center and world priorities, Japanese status labels, up to three total attempts per step, failure recovery, warning and failure history windows, and migration of existing settings."
+    "LastUpdate": 1793330768,
+    "IconUrl": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v0.0.2/SubmarineLogisticsManager-icon.png",
+    "Changelog": "Fixes NPC selling stopping on the buyback tab. Adds Free Destination Check next to Start with Current Character: loads unknown security token free destinations, registers Limsa when needed, then returns to the FC house and logs out before switching characters. Uses data center and world priorities, three total attempts per step, cancellation, and persistent failure history. Preserves supply and NPC selling selections and completion flags."
   }
 ]
