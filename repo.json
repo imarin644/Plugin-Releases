@@ -56,8 +56,8 @@
     "Author": "unknown",
     "Name": "Submarine Logistics Manager",
     "InternalName": "SubmarineLogisticsManager",
-    "AssemblyVersion": "1.0.4.0",
-    "Description": "Use /slm to open. Manage submarine supplies and NPC selling across characters in data center and world priority order. Select a standard gil-shop NPC in Limsa Lominsa, Gridania, or Ul'dah. Stops within interaction range instead of walking into counters. Protects ten designated items and tracks gil, inventory space, stock warnings, and failure history. Includes login buttons in failure history and Free Destination Check. Choose Do Nothing (default), Exit Client, or Logout after the final character. Requires Lifestream and vnavmesh. Run cancellation finishes an active trade or the single in-flight sale, then returns to the FC house and stops. Highlights and pins the active character.",
+    "AssemblyVersion": "1.0.5.0",
+    "Description": "Use /slm to open. Manage submarine supplies and NPC selling across characters in data center and world priority order. Select a standard gil-shop NPC in Limsa Lominsa, Gridania, or Ul'dah and configure its fixed standing coordinate. Stops at the coordinate and never walks closer during shop interaction. Protects ten designated items and tracks gil, inventory space, stock warnings, and failure history. Attempts FC return after exhausted retries whenever the target character is online. Run cancellation finishes the current transaction before FC return and stop. Requires Lifestream and vnavmesh.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/imarin644/Plugin-Releases",
     "Tags": [
@@ -72,14 +72,14 @@
     "LoadPriority": 0,
     "Punchline": "Manage submarine supplies, NPC selling, free destinations, and automated multi-character runs.",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.4/SubmarineLogisticsManager-1.0.4.zip",
-    "DownloadLinkUpdate": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.4/SubmarineLogisticsManager-1.0.4.zip",
-    "DownloadLinkTesting": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.4/SubmarineLogisticsManager-1.0.4.zip",
+    "DownloadLinkInstall": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.5/SubmarineLogisticsManager-1.0.5.zip",
+    "DownloadLinkUpdate": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.5/SubmarineLogisticsManager-1.0.5.zip",
+    "DownloadLinkTesting": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.5/SubmarineLogisticsManager-1.0.5.zip",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1793457958,
-    "IconUrl": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.4/SubmarineLogisticsManager-icon.png",
-    "Changelog": "Places all three selection actions to the right of the sell filter on one row. Run cancellation waits for an active trade or finishes only the in-flight item stack, then returns to the FC house and stops without advancing, logging out, or exiting the client. Retains target selections on cancellation. Keeps the active character pinned and subtly highlighted during work, return, and cancellation. Prevents deleting an active character. Records exhausted FC return failures and stops."
+    "LastUpdate": 1793476091,
+    "IconUrl": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.5/SubmarineLogisticsManager-icon.png",
+    "Changelog": "Emergency fix: restores fixed per-NPC standing coordinates while retaining city and NPC selection. Automatically initializes the previous Engerrand coordinate. Stops at the configured coordinate and removes all extra movement during shop interaction to prevent walking into counters. Attempts FC return after exhausted login, logout, exit, and other action retries when the expected character is online. Stops with failure history if FC return also fails three times."
   },
   {
     "Author": "unknown",
