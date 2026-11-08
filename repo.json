@@ -56,8 +56,8 @@
     "Author": "unknown",
     "Name": "Submarine Logistics Manager",
     "InternalName": "SubmarineLogisticsManager",
-    "AssemblyVersion": "1.0.6.0",
-    "Description": "Use /slm to open. Manage submarine supplies and NPC selling across characters in data center and world priority order. Select a standard gil-shop NPC in Limsa Lominsa, Gridania, or Ul'dah and configure its fixed standing coordinate. Stops at the coordinate and never walks closer during shop interaction. Protects ten designated items and tracks gil, inventory space, stock warnings, and failure history. Attempts FC return after exhausted retries whenever the target character is online. Run cancellation finishes the current transaction before FC return and stop. Requires Lifestream and vnavmesh. Automatically targets and interacts with the selected vendor after coordinate arrival; uses the game's interaction range instead of a fixed NPC-center distance limit.",
+    "AssemblyVersion": "1.0.7.0",
+    "Description": "Use /slm to open. Manage submarine supplies and NPC selling across characters in data center and world priority order. Configure the standing coordinate for Engerrand in Limsa Lominsa Lower Decks. Import and export character lists in CSV format. Stops at the coordinate and never walks closer during shop interaction. Protects ten designated items and tracks gil, inventory space, stock warnings, and failure history. Attempts FC return after exhausted retries whenever the target character is online. Run cancellation finishes the current transaction before FC return and stop. Requires Lifestream and vnavmesh. Automatically targets and interacts with the fixed vendor after coordinate arrival; uses the game's interaction range instead of a fixed NPC-center distance limit.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/imarin644/Plugin-Releases",
     "Tags": [
@@ -72,14 +72,14 @@
     "LoadPriority": 0,
     "Punchline": "Manage submarine supplies, NPC selling, free destinations, and automated multi-character runs.",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.6/SubmarineLogisticsManager-1.0.6.zip",
-    "DownloadLinkUpdate": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.6/SubmarineLogisticsManager-1.0.6.zip",
-    "DownloadLinkTesting": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.6/SubmarineLogisticsManager-1.0.6.zip",
+    "DownloadLinkInstall": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.7/SubmarineLogisticsManager-1.0.7.zip",
+    "DownloadLinkUpdate": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.7/SubmarineLogisticsManager-1.0.7.zip",
+    "DownloadLinkTesting": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.7/SubmarineLogisticsManager-1.0.7.zip",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1793476844,
-    "IconUrl": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.6/SubmarineLogisticsManager-icon.png",
-    "Changelog": "Fixes automatic NPC conversation after arriving at the configured standing coordinate. Removes the fixed 3.5m NPC-center distance restriction, lets the game validate interaction range, and separates target selection from the interaction request. Adds first-interaction diagnostic distances. Preserves fixed-coordinate movement, protected selling, FC return, and character switching."
+    "LastUpdate": 1794137297,
+    "IconUrl": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.7/SubmarineLogisticsManager-icon.png",
+    "Changelog": "Adds yellow-only and red-plus-yellow filters, warning counts, grouped settings, character CSV import and export, and a fixed Engerrand vendor. Opens warnings automatically when new red items appear."
   },
   {
     "Author": "unknown",
