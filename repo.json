@@ -56,8 +56,8 @@
     "Author": "unknown",
     "Name": "Submarine Logistics Manager",
     "InternalName": "SubmarineLogisticsManager",
-    "AssemblyVersion": "1.0.8.0",
-    "Description": "Use /slm to open. Manage submarine supplies, NPC selling, free destinations, stock warnings, and character runs in data center and world priority order. Export supply requests as JSON and merge two receiver clients in the Delivery tab. Match nearby recipients by character name and home world, then deliver editable stacks of 999 via Dropbox IPC. Supports safe pause, resume, cancel, skip, persistent progress, stock shortage pauses, and home-world return after completion. Receivers wait five seconds after the last trade before FC return. Requires Lifestream and vnavmesh; supplier trading also requires Dropbox.",
+    "AssemblyVersion": "1.0.9.0",
+    "Description": "Use /slm to open. Manage submarine supplies, NPC selling, free destinations, stock warnings, and character runs in data center and world priority order. Export low-stock or all-character JSON with owned quantities and client-specific filenames, then merge two receiver clients in Delivery Settings. Deliver editable stacks of 999 via Dropbox IPC after confirming that the matched recipient has stopped for half a second. The supplier stays in place after reaching the handover coordinate until the next world or a pause/resume. Shows remaining required stacks and live inventory shortages. Includes separate supply and sale execution, safe pause/cancel/skip, persistent progress, and home-world return after completion. Requires Lifestream and vnavmesh; supplier trading also requires Dropbox.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/imarin644/Plugin-Releases",
     "Tags": [
@@ -72,14 +72,14 @@
     "LoadPriority": 0,
     "Punchline": "Manage submarine supplies, supplier trading, NPC selling, and multi-character runs.",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.8/SubmarineLogisticsManager-1.0.8.zip",
-    "DownloadLinkUpdate": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.8/SubmarineLogisticsManager-1.0.8.zip",
-    "DownloadLinkTesting": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.8/SubmarineLogisticsManager-1.0.8.zip",
+    "DownloadLinkInstall": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.9/SubmarineLogisticsManager-1.0.9.zip",
+    "DownloadLinkUpdate": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.9/SubmarineLogisticsManager-1.0.9.zip",
+    "DownloadLinkTesting": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.9/SubmarineLogisticsManager-1.0.9.zip",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1794642863,
-    "IconUrl": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.8/SubmarineLogisticsManager-icon.png",
-    "Changelog": "Adds supplier delivery management with two-client JSON import, editable stacks, safe pause/resume/cancel/skip, durable progress, stock shortage handling, and Dropbox IPC trading. Adds JSON supply export and Run All Supplies for all characters with 200 or fewer barrels or repair materials. Receivers wait five seconds after the last trade. Warning totals now count red warning rows only. Adds a Clear Data button to remove imported delivery queues and saved progress while stopped."
+    "LastUpdate": 1794647728,
+    "IconUrl": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.9/SubmarineLogisticsManager-icon.png",
+    "Changelog": "Adds separate low-stock and all-character JSON exports with owned quantities and client-ID filenames. Adds full-character supply runs and separate checked supply/sale execution. Reorganizes settings, controls, and character columns. Displays remaining stacks and live inventory shortages. Suppliers no longer approach recipients or return to the handover coordinate after arrival; resuming or changing worlds restores the coordinate. Confirms recipients are stationary for 0.5 seconds before trading."
   },
   {
     "Author": "unknown",
