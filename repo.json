@@ -139,12 +139,12 @@
     "Author": "unknown",
     "Name": "Memo Canvas",
     "InternalName": "MemoCanvas",
-    "AssemblyVersion": "0.0.0.1",
+    "AssemblyVersion": "0.0.0.2",
     "DalamudApiLevel": 15,
     "ApplicableVersion": "any",
     "LoadRequiredState": 0,
     "Punchline": "Arrange rich-text notes and diagrams in independent windows.",
-    "Description": "Use /memc to open. Organize notes and diagrams in two-level folders, edit rich text and formation diagrams, and display multiple independent canvases. Includes saved layouts, individual appearance settings, manual and timed saving, and JSON import/export.",
+    "Description": "Use /memc to open. Organize notes and diagrams in two-level folders, edit rich text and formation diagrams, and display multiple independent canvases. Includes saved layouts, individual appearance settings, manual and timed saving, and JSON import.",
     "RepoUrl": "https://github.com/imarin644/Plugin-Releases",
     "Tags": [
       "notes",
@@ -152,16 +152,16 @@
       "diagram",
       "overlay"
     ],
-    "DownloadLinkInstall": "https://github.com/imarin644/Plugin-Releases/releases/download/memc-v0.0.0.1/MemoCanvas-0.0.0.1.zip",
-    "DownloadLinkUpdate": "https://github.com/imarin644/Plugin-Releases/releases/download/memc-v0.0.0.1/MemoCanvas-0.0.0.1.zip",
-    "DownloadLinkTesting": "https://github.com/imarin644/Plugin-Releases/releases/download/memc-v0.0.0.1/MemoCanvas-0.0.0.1.zip",
+    "DownloadLinkInstall": "https://github.com/imarin644/Plugin-Releases/releases/download/memc-v0.0.0.2/MemoCanvas-0.0.0.2.zip",
+    "DownloadLinkUpdate": "https://github.com/imarin644/Plugin-Releases/releases/download/memc-v0.0.0.2/MemoCanvas-0.0.0.2.zip",
+    "DownloadLinkTesting": "https://github.com/imarin644/Plugin-Releases/releases/download/memc-v0.0.0.2/MemoCanvas-0.0.0.2.zip",
     "IsHide": false,
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "LoadSync": false,
     "CanUnloadAsync": false,
     "LoadPriority": 0,
-    "LastUpdate": 1794748140,
-    "Changelog": "Initial alpha: rich-text notes, editable diagrams, two-level folders, independent windows, saved layouts, timed/manual saving, appearance inheritance, and JSON import/export."
+    "LastUpdate": 1794752208,
+    "Changelog": "Streamlines creation and inline renaming, adds direct rich-text formatting and clean chat paste, removes preview and export controls, replaces diagram dropdowns with icons, and adds 0.065-size elements, formation presets, group selection, movement, scaling, and Delete-key removal."
   }
 ]
