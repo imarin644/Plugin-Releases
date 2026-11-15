@@ -139,12 +139,12 @@
     "Author": "unknown",
     "Name": "Memo Canvas",
     "InternalName": "MemoCanvas",
-    "AssemblyVersion": "0.0.0.3",
+    "AssemblyVersion": "0.0.0.4",
     "DalamudApiLevel": 15,
     "ApplicableVersion": "any",
     "LoadRequiredState": 0,
     "Punchline": "Arrange rich-text notes and diagrams in independent windows.",
-    "Description": "Use /memc to open. Organize notes and diagrams in two-level folders, edit rich text and formation diagrams, and display multiple independent canvases. Includes saved layouts, layer management, element clipboard shortcuts, group transforms, saved color palettes, plugin-scoped fonts, manual and timed saving, and JSON import.",
+    "Description": "Use /memc to open. Organize notes and diagrams in two-level folders, edit rich text and formation diagrams, and display multiple independent canvases. Uses MinasisUI for shared controls and styling, with dedicated rich-text and diagram editors. Includes saved layouts, layers, clipboard shortcuts, group transforms, saved palettes, plugin-scoped fonts, manual and timed saving, and JSON import.",
     "RepoUrl": "https://github.com/imarin644/Plugin-Releases",
     "Tags": [
       "notes",
@@ -152,16 +152,16 @@
       "diagram",
       "overlay"
     ],
-    "DownloadLinkInstall": "https://github.com/imarin644/Plugin-Releases/releases/download/memc-v0.0.0.3/MemoCanvas-0.0.0.3.zip",
-    "DownloadLinkUpdate": "https://github.com/imarin644/Plugin-Releases/releases/download/memc-v0.0.0.3/MemoCanvas-0.0.0.3.zip",
-    "DownloadLinkTesting": "https://github.com/imarin644/Plugin-Releases/releases/download/memc-v0.0.0.3/MemoCanvas-0.0.0.3.zip",
+    "DownloadLinkInstall": "https://github.com/imarin644/Plugin-Releases/releases/download/memc-v0.0.0.4/MemoCanvas-0.0.0.4.zip",
+    "DownloadLinkUpdate": "https://github.com/imarin644/Plugin-Releases/releases/download/memc-v0.0.0.4/MemoCanvas-0.0.0.4.zip",
+    "DownloadLinkTesting": "https://github.com/imarin644/Plugin-Releases/releases/download/memc-v0.0.0.4/MemoCanvas-0.0.0.4.zip",
     "IsHide": false,
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "LoadSync": false,
     "CanUnloadAsync": false,
     "LoadPriority": 0,
-    "LastUpdate": 1794758894,
-    "Changelog": "Adds synchronized layers and context menus, element clipboard shortcuts, Delete-key fixes, thin selection bounds and Ctrl-drag rotation, stack and boss icons, inline text editing, saved color palettes, and plugin-scoped fonts. Removes Ctrl requirements for deletion and simplifies memo controls."
+    "LastUpdate": 1794764836,
+    "Changelog": "Adopts MinasisUI shared controls and styling with dedicated rich-text and diagram editors. Fixes cursor and visual-line navigation, persists typing styles, adds underline and italic, rasterizes fonts for display sizes, stabilizes responsive diagram layout and drag initiation, adds a physical-key shortcut fallback, and simplifies folder selection and diagram controls."
   }
 ]
