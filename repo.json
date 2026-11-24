@@ -56,8 +56,8 @@
     "Author": "unknown",
     "Name": "Submarine Logistics Manager",
     "InternalName": "SubmarineLogisticsManager",
-    "AssemblyVersion": "1.0.9.0",
-    "Description": "Use /slm to open. Manage submarine supplies, NPC selling, free destinations, stock warnings, and character runs in data center and world priority order. Export low-stock or all-character JSON with owned quantities and client-specific filenames, then merge two receiver clients in Delivery Settings. Deliver editable stacks of 999 via Dropbox IPC after confirming that the matched recipient has stopped for half a second. The supplier stays in place after reaching the handover coordinate until the next world or a pause/resume. Shows remaining required stacks and live inventory shortages. Includes separate supply and sale execution, safe pause/cancel/skip, persistent progress, and home-world return after completion. Requires Lifestream and vnavmesh; supplier trading also requires Dropbox.",
+    "AssemblyVersion": "1.0.10.0",
+    "Description": "Use /slm to open. Manage submarine supplies, NPC selling, free destinations, stock warnings, and character runs in data center and world priority order. Export low-stock or all-character JSON with owned quantities and client-specific filenames, then merge two receiver clients in Delivery Settings. Deliver editable stacks of 999 via Dropbox IPC after confirming that the matched recipient has stopped for half a second. The supplier stays in place after reaching the handover coordinate until the next world or a pause/resume. Shows remaining required stacks and live inventory shortages. Includes separate supply and sale execution, safe pause/cancel/skip, persistent progress, and home-world return after completion. Requires Lifestream and vnavmesh; supplier trading also requires Dropbox. Merged delivery queues follow configured named DC and world priorities. JSON export previews and supply runs display their fixed target lists in queue order.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/imarin644/Plugin-Releases",
     "Tags": [
@@ -72,14 +72,14 @@
     "LoadPriority": 0,
     "Punchline": "Manage submarine supplies, supplier trading, NPC selling, and multi-character runs.",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.9/SubmarineLogisticsManager-1.0.9.zip",
-    "DownloadLinkUpdate": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.9/SubmarineLogisticsManager-1.0.9.zip",
-    "DownloadLinkTesting": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.9/SubmarineLogisticsManager-1.0.9.zip",
+    "DownloadLinkInstall": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.10/SubmarineLogisticsManager-1.0.10.zip",
+    "DownloadLinkUpdate": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.10/SubmarineLogisticsManager-1.0.10.zip",
+    "DownloadLinkTesting": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.10/SubmarineLogisticsManager-1.0.10.zip",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1794647728,
-    "IconUrl": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.9/SubmarineLogisticsManager-icon.png",
-    "Changelog": "Adds separate low-stock and all-character JSON exports with owned quantities and client-ID filenames. Adds full-character supply runs and separate checked supply/sale execution. Reorganizes settings, controls, and character columns. Displays remaining stacks and live inventory shortages. Suppliers no longer approach recipients or return to the handover coordinate after arrival; resuming or changing worlds restores the coordinate. Confirms recipients are stationary for 0.5 seconds before trading."
+    "LastUpdate": 1795520413,
+    "IconUrl": "https://github.com/imarin644/Plugin-Releases/releases/download/slm-v1.0.10/SubmarineLogisticsManager-icon.png",
+    "Changelog": "Extends supplier DC-travel recovery through the subsequent Limsa teleport and handover-coordinate approach. Waits for a stable local character, world, area, inventory and integrations before rebuilding navigation, and records identity-check stop reasons. Warning rows, category counts and automatic display now include yellow and red conditions, with each sale candidate counted once. Preserves configured DC/world priority order, stationary trading, saved progress and duplicate-trade safeguards."
   },
   {
     "Author": "unknown",
